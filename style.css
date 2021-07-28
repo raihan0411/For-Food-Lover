@@ -74,7 +74,11 @@ h1{
 }
 .gradient{
     border-right: 5px solid;
-    background-image: linear-gradient(gray, whitesmoke);
     border-image: linear-gradient(black, gray);
-    border-image-slice: 2;
+    border-image-slice: 1;
+    background-image: linear-gradient(gray, whitesmoke);
+}
+.btn{
+    width: 100%;
+    text-align: center;
 }
