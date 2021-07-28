@@ -72,3 +72,9 @@ h1{
 #textcol{
     color: grey;
 }
+.gradient{
+    border-right: 5px solid;
+    background-image: linear-gradient(gray, whitesmoke);
+    border-image: linear-gradient(black, gray);
+    border-image-slice: 2;
+}
